@@ -210,3 +210,112 @@ switch (value) {
 
         default : alert(`${value}, немає в наявності`);
 }*/
+
+
+
+
+
+
+
+
+
+
+//Homework//
+
+/*let number = "0";
+
+if (number > 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}*/
+
+//Якщо змінна ="test" - виведіть true,
+//Перевірте це на варіантах  'test', "qwerty", true//
+
+
+/*var variable ="test";
+
+if (variable == "test") {
+    console.log(true);
+} else if (variable == "qwerty") {
+    console.log(true);
+} else if (variable == "true") {
+    console.log(true);
+} else {
+    console.log(false);
+}
+*/
+
+// Якщо змінна більше 10 -  відніміть 5,
+//менше - додайте 5, результат виведіть в консоль
+//Перевірте це на варіантах  1, 10, 13.
+
+/*var num = 11;
+
+if (num > 10) {
+    num = num - 5;
+} else {
+    num = num + 5;
+}
+console.log(num);*/
+
+//Зробіть сервіс який отримує число від 1 до 12
+// виведіть місяць який дорівнює числу
+
+/*function inputMonth(numbermonth) {
+    switch (numbermonth) {
+        case 1:
+            return "January";
+        case 2 :
+            return "February";
+        case 3 : 
+            return "March";
+        case 4 : 
+            return "April";
+        case 5 :
+            return "May";
+        case 6 :
+            return "June";
+        case 7 :
+            return "Jule";
+        case 8 :
+            return "August";
+        case 9 :
+            return "September";
+         case 10 :
+            return "October";
+        case 11 :
+            return "Nowember";
+        case 12 :
+            return "December";
+
+        default :
+            return  "Неправильний номер місяця";
+    }
+}
+
+var numbermonth = 3;
+var month = inputMonth(numbermonth);
+console.log(month); */
+
+
+//Зробіть сервіс який отримує тризначне число
+//Поверніть користувачу сумму цих чисел
+
+/*function getsumnumber(number) {
+    var rownumber  = number.toString();
+
+    var figure = figure.split('');
+
+    var sum = figure.reduce(function(previousvalue, currentvalue) {
+        return parseInt(previousvalue) + parseInt(currentvalue);
+    }, 0);
+
+    return sum;
+}
+
+var three = 333;
+
+var sumnumber = getsumnumber(three);
+console.log("the sum of the digits in the number", three, "=", sum);*/
